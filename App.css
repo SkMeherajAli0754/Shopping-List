@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+input{
+  height: 40px;
+  width: 230px;
+  font-size: 20px;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.shopping-list{
+  height: 150px;
+  width: 230px;
+  background-color: lightgrey;
+  margin: 40px auto;
+  padding: 5px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.product{
+  text-align: left;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product:hover{
+  background-color: aquamarine;
+}
+.bucket-list{
+  width: 300px;
+  height: 330px;
+  margin: 40px auto;
+  overflow-y: auto;
+}
+.shopping-item{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightseagreen;
+  height: 40px;
+  padding: 5px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 5px;
+}
+button{
+  background-color: lightseagreen;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #fff;
+}
+.strike{
+  text-decoration: line-through;
+  color: rgb(81, 44, 44);
+}
